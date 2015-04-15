@@ -21,6 +21,11 @@
 		2B1358481A41951B00142A9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B13582A1A41951A00142A9C /* UIKit.framework */; };
 		2B1358501A41951B00142A9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B13584E1A41951B00142A9C /* InfoPlist.strings */; };
 		2B1358521A41951B00142A9C /* passwordhackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1358511A41951B00142A9C /* passwordhackerTests.m */; };
+		2B2F6EA61A6686B200D7BF84 /* ドラえもん.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F6EA51A6686B200D7BF84 /* ドラえもん.png */; };
+		2B2F6EA81A66873A00D7BF84 /* 背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F6EA71A66873A00D7BF84 /* 背景.png */; };
+		2B2F6EAA1A668A5800D7BF84 /* 能.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F6EA91A668A5800D7BF84 /* 能.png */; };
+		2B2F6EAC1A668A7D00D7BF84 /* 名称未設定-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F6EAB1A668A7D00D7BF84 /* 名称未設定-2.png */; };
+		2B2F6EAE1A668B2F00D7BF84 /* 名称未設定-21.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F6EAD1A668B2F00D7BF84 /* 名称未設定-21.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		2B13584D1A41951B00142A9C /* passwordhackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "passwordhackerTests-Info.plist"; sourceTree = "<group>"; };
 		2B13584F1A41951B00142A9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B1358511A41951B00142A9C /* passwordhackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = passwordhackerTests.m; sourceTree = "<group>"; };
+		2B2F6EA51A6686B200D7BF84 /* ドラえもん.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ドラえもん.png"; sourceTree = "<group>"; };
+		2B2F6EA71A66873A00D7BF84 /* 背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景.png"; sourceTree = "<group>"; };
+		2B2F6EA91A668A5800D7BF84 /* 能.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "能.png"; sourceTree = "<group>"; };
+		2B2F6EAB1A668A7D00D7BF84 /* 名称未設定-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "名称未設定-2.png"; sourceTree = "<group>"; };
+		2B2F6EAD1A668B2F00D7BF84 /* 名称未設定-21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "名称未設定-21.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,7 @@
 				2B13584B1A41951B00142A9C /* passwordhackerTests */,
 				2B1358251A41951A00142A9C /* Frameworks */,
 				2B1358241A41951A00142A9C /* Products */,
+				2B2F6EA71A66873A00D7BF84 /* 背景.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +123,10 @@
 		2B13582C1A41951A00142A9C /* passwordhacker */ = {
 			isa = PBXGroup;
 			children = (
+				2B2F6EA51A6686B200D7BF84 /* ドラえもん.png */,
+				2B2F6EA91A668A5800D7BF84 /* 能.png */,
+				2B2F6EAB1A668A7D00D7BF84 /* 名称未設定-2.png */,
+				2B2F6EAD1A668B2F00D7BF84 /* 名称未設定-21.png */,
 				2B1358351A41951A00142A9C /* AppDelegate.h */,
 				2B1358361A41951A00142A9C /* AppDelegate.m */,
 				2B1358381A41951A00142A9C /* Main.storyboard */,
@@ -228,7 +243,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B2F6EA81A66873A00D7BF84 /* 背景.png in Resources */,
+				2B2F6EA61A6686B200D7BF84 /* ドラえもん.png in Resources */,
 				2B13583F1A41951A00142A9C /* Images.xcassets in Resources */,
+				2B2F6EAA1A668A5800D7BF84 /* 能.png in Resources */,
+				2B2F6EAC1A668A7D00D7BF84 /* 名称未設定-2.png in Resources */,
+				2B2F6EAE1A668B2F00D7BF84 /* 名称未設定-21.png in Resources */,
 				2B1358311A41951A00142A9C /* InfoPlist.strings in Resources */,
 				2B13583A1A41951A00142A9C /* Main.storyboard in Resources */,
 			);
@@ -456,6 +476,7 @@
 				2B1358571A41951B00142A9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B1358581A41951B00142A9C /* Build configuration list for PBXNativeTarget "passwordhackerTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +485,7 @@
 				2B13585A1A41951B00142A9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
